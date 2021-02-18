@@ -119,10 +119,17 @@ letter-spacing:5px}
 .case-study span{font-weight:600}
 
 /*about*/
-.about-img{position: absolute;
+
+.img-about{cursor:pointer}
+.img-about img{padding: 3%;}
+
+
+/*.about-img{position: absolute;
     top: 25%;
     left: 44%;
 }
+
+
 
 .box-green{background: #393;
     position: absolute;
@@ -196,11 +203,15 @@ letter-spacing:5px}
 
 }
     .box-1-txt{font-size:14px;}
-}
+}*/
 
-.about-heading{font-size:30px;
+.about{
+margin-top: 15%;}
+
+.about-heading{font-size:35px;
 color:#f60;
-margin-bottom:5%;}
+margin-bottom:5%;
+margin-top: 5%}
 
 .about-heading span{color:#393;
 font-weight:600;}
@@ -231,3 +242,5 @@ padding-top:3%;}
 .list-inline-item a{color:#039;
 text-decoration:none;
 font-size:30px}
+
+.happy-clicents{cursor: pointer;}
